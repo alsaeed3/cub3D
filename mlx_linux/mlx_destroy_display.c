@@ -1,18 +1,18 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   exec.h                                             :+:      :+:    :+:   */
+/*   mlx_destroy_display.c                              :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: alsaeed <alsaeed@student.42abudhabi.ae>    +#+  +:+       +#+        */
+/*   By: mg <mg@student.42.fr>                      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2024/03/04 12:20:06 by alsaeed           #+#    #+#             */
-/*   Updated: 2024/03/06 11:46:41 by alsaeed          ###   ########.fr       */
+/*   Created: 2020/10/03 18:56:35 by mg                #+#    #+#             */
+/*   Updated: 2020/10/04 01:55:35 by mg               ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#ifndef EXEC_H
-# define EXEC_H
+#include "mlx_int.h"
 
-# include "data.h"
-
-#endif
+int	mlx_destroy_display(t_xvar *xvar)
+{
+	XCloseDisplay(xvar->display);
+}

@@ -1,0 +1,12 @@
+NO ./test_maps/textures/wood.xpm
+SO ./test_maps/textures/redbrick.xpm
+WE ./test_maps/textures/colorstone.xpm
+EA ./test_maps/textures/mossy.xpm
+
+
+F 220,100,0
+C 225,30,0
+
+ 111
+10N01
+ 111
