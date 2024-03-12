@@ -6,11 +6,11 @@
 /*   By: alsaeed <alsaeed@student.42abudhabi.ae>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/05/09 14:09:01 by alsaeed           #+#    #+#             */
-/*   Updated: 2024/02/19 19:24:48 by alsaeed          ###   ########.fr       */
+/*   Updated: 2024/03/12 01:11:42 by alsaeed          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "../inc/libft.h"
+#include "../includes/libft.h"
 
 size_t	ft_strlen(char *buf)
 {

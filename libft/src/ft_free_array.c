@@ -6,11 +6,11 @@
 /*   By: alsaeed <alsaeed@student.42abudhabi.ae>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/09/29 14:33:05 by alsaeed           #+#    #+#             */
-/*   Updated: 2024/02/15 16:23:01 by alsaeed          ###   ########.fr       */
+/*   Updated: 2024/03/12 01:11:42 by alsaeed          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "../inc/libft.h"
+#include "../includes/libft.h"
 
 void	ft_free_array(char ***array)
 {

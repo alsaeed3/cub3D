@@ -3,14 +3,14 @@
 /*                                                        :::      ::::::::   */
 /*   ft_lstadd_back.c                                   :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: alsaeed <alsaeed@student.42.fr>            +#+  +:+       +#+        */
+/*   By: alsaeed <alsaeed@student.42abudhabi.ae>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/01/10 15:46:27 by alsaeed           #+#    #+#             */
-/*   Updated: 2023/10/12 11:31:10 by alsaeed          ###   ########.fr       */
+/*   Updated: 2024/03/12 01:11:40 by alsaeed          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "../inc/libft.h"
+#include "../includes/libft.h"
 
 t_list	*ft_lstadd_back(t_list *head, int integer)
 {

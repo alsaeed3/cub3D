@@ -6,11 +6,11 @@
 /*   By: alsaeed <alsaeed@student.42abudhabi.ae>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/10/12 13:24:03 by alsaeed           #+#    #+#             */
-/*   Updated: 2024/02/15 16:21:37 by alsaeed          ###   ########.fr       */
+/*   Updated: 2024/03/12 01:11:40 by alsaeed          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "../inc/libft.h"
+#include "../includes/libft.h"
 
 char	**ft_get_array(int ac, char **av)
 {

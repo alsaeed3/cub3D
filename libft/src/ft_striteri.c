@@ -6,11 +6,11 @@
 /*   By: alsaeed <alsaeed@student.42abudhabi.ae>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/01/10 15:38:02 by alsaeed           #+#    #+#             */
-/*   Updated: 2023/07/24 15:51:15 by alsaeed          ###   ########.fr       */
+/*   Updated: 2024/03/12 01:11:42 by alsaeed          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "../inc/libft.h"
+#include "../includes/libft.h"
 
 void	ft_striteri(char *s, void (*f)(unsigned int, char*))
 {

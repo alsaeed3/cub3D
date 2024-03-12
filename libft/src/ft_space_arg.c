@@ -3,14 +3,14 @@
 /*                                                        :::      ::::::::   */
 /*   ft_space_arg.c                                     :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: alsaeed <alsaeed@student.42.fr>            +#+  +:+       +#+        */
+/*   By: alsaeed <alsaeed@student.42abudhabi.ae>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/09/29 17:06:30 by alsaeed           #+#    #+#             */
-/*   Updated: 2023/10/12 16:37:45 by alsaeed          ###   ########.fr       */
+/*   Updated: 2024/03/12 01:11:40 by alsaeed          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "../inc/libft.h"
+#include "../includes/libft.h"
 
 int	ft_space_arg(char **s)
 {

@@ -6,11 +6,11 @@
 /*   By: alsaeed <alsaeed@student.42abudhabi.ae>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/01/10 13:38:45 by alsaeed           #+#    #+#             */
-/*   Updated: 2023/07/24 15:49:18 by alsaeed          ###   ########.fr       */
+/*   Updated: 2024/03/12 01:11:42 by alsaeed          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "../inc/libft.h"
+#include "../includes/libft.h"
 
 int	ft_isdigit(int c)
 {

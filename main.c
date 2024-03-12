@@ -6,11 +6,11 @@
 /*   By: alsaeed <alsaeed@student.42abudhabi.ae>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/03/04 12:19:46 by alsaeed           #+#    #+#             */
-/*   Updated: 2024/03/06 14:55:26 by alsaeed          ###   ########.fr       */
+/*   Updated: 2024/03/12 01:11:40 by alsaeed          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "./inc/exec.h"
+#include "./includes/exec.h"
 
 typedef struct s_vars
 {
