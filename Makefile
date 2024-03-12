@@ -6,7 +6,7 @@
 #    By: alsaeed <alsaeed@student.42abudhabi.ae>    +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2024/03/04 12:19:50 by alsaeed           #+#    #+#              #
-#    Updated: 2024/03/12 23:15:30 by alsaeed          ###   ########.fr        #
+#    Updated: 2024/03/12 23:50:16 by alsaeed          ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -17,20 +17,18 @@ NAME :=	cub3D
 UNAME := $(shell uname)
 
 CFLAGS := -Wall -Wextra -Werror
-LDFLAGS := -Llibft/ -Ilibft/includes -lft -lm
+LDFLAGS := -Llibs/libft/ -Ilibs/libft/includes -lft -lm
 INCLUDES := -Iincludes/ 
 
-
-
 ifeq ($(UNAME), Linux)
-    CC := cc
-    LDFLAGS += -Lmlx_linux/ -Imlx_linux/ -lmlx_Linux -L/usr/lib -lXext -lX11
+    CC := clang
+    LDFLAGS += -Llibs/mlx_linux/ -Ilibs/mlx_linux/ -llibs/mlx_Linux -L/usr/lib -lXext -lX11
     INCLUDES += -I/usr/include -D__LINUX__
-    MLX_DIR := mlx_linux/
+    MLX_DIR := libs/mlx_linux/
 else ifeq ($(UNAME), Darwin)
     CC := cc
-    LDFLAGS += -Lmlx_macos/ -Imlx_macos/ -lmlx -framework OpenGL -framework AppKit -L/usr/lib
-    MLX_DIR := mlx_macos/
+    LDFLAGS += -Llibs/mlx_macos/ -Ilibs/mlx_macos/ -lmlx -framework OpenGL -framework AppKit -L/usr/lib
+    MLX_DIR := libs/mlx_macos/
 endif
 
 SRCD =	
@@ -42,7 +40,7 @@ OBJD = $(SRCD:%.c=$(OBJD_DIR)/%.o)
 OBJX_DIR = src/execution/objs/
 OBJX = $(SRCX:%.c=$(OBJX_DIR)/%.o)
 
-LIBFT_DIR = libft
+LIBFT_DIR = libs/libft
 LIBFT = $(LIBFT_DIR)/libft.a
 MINILIBX = $(MLX_DIR)libmlx.a
 
