@@ -6,15 +6,15 @@
 /*   By: alsaeed <alsaeed@student.42abudhabi.ae>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/03/04 12:20:28 by alsaeed           #+#    #+#             */
-/*   Updated: 2024/03/12 23:48:20 by alsaeed          ###   ########.fr       */
+/*   Updated: 2024/03/12 23:51:59 by alsaeed          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #ifndef DATA_H
 # define DATA_H
 
-# include "libft.h"
-# include "mlx.h"
+# include <libft.h>
+# include <mlx.h>
 # include <fcntl.h>
 # include <math.h>
 # include <stdio.h>
