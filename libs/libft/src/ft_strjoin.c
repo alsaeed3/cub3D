@@ -6,7 +6,7 @@
 /*   By: alsaeed <alsaeed@student.42abudhabi.ae>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/01/10 15:36:23 by alsaeed           #+#    #+#             */
-/*   Updated: 2024/03/12 01:11:40 by alsaeed          ###   ########.fr       */
+/*   Updated: 2024/03/18 03:21:30 by alsaeed          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -41,23 +41,23 @@ char	*ft_strjoin(char *s1, char *s2)
 	return (join);
 }
 
-char	*ft_strstr(char *haystack, char *needle)
+char	*ft_strstr(const char *haystack, const char *needle)
 {
 	size_t	len;
 
 	len = ft_strlen(needle);
 	if (!*needle)
-		return (haystack);
+		return ((char *)haystack);
 	while (*haystack)
 	{
 		if (!ft_strncmp(haystack, needle, len))
-			return (haystack);
+			return ((char *)haystack);
 		haystack++;
 	}
 	return (NULL);
 }
 
-char	*ft_strncpy(char *dest, char *src, size_t n)
+char	*ft_strncpy(char *dest, const char *src, size_t n)
 {
 	size_t	i;
 
@@ -75,7 +75,7 @@ char	*ft_strncpy(char *dest, char *src, size_t n)
 	return (dest);
 }
 
-char	*ft_strcpy(char *dest, char *src)
+char	*ft_strcpy(char *dest, const char *src)
 {
 	size_t	i;
 

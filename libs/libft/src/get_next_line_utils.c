@@ -6,13 +6,13 @@
 /*   By: alsaeed <alsaeed@student.42abudhabi.ae>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/05/09 14:09:01 by alsaeed           #+#    #+#             */
-/*   Updated: 2024/03/12 01:11:42 by alsaeed          ###   ########.fr       */
+/*   Updated: 2024/03/18 03:24:03 by alsaeed          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "../includes/libft.h"
 
-size_t	ft_strlen(char *buf)
+size_t	ft_strlen(const char *buf)
 {
 	size_t	i;
 
@@ -24,7 +24,7 @@ size_t	ft_strlen(char *buf)
 	return (i);
 }
 
-size_t	ft_strlen_nl(char *str)
+size_t	ft_strlen_nl(const char *str)
 {
 	size_t	i;
 
